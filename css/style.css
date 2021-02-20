@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ html{
+     height: 100%;
+     font-size: 62.5%;
+ }
+ body{
+     min-height: 100%;;
+     font-family: 'Raleway', sans-serif;
+     font-size: 1.6rem;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .hero-shadow{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: -1;
+}
+
+.top-hero{
+    position: relative;
+    height: 20rem;
+    background-size: cover;
+    z-index: 0;
+}
+
+.top-hero-text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 120%;
+    font-size: 3.6rem;
+    
+}
+
+
+ /* Nawigacja */
+
+.dnav-item{
+    text-decoration: none;
+}
+nav a{
+    font-size: 1.8rem;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.home-branding{
+    font-size: 2.2rem;
+}
+
+/* Header */
+.carousel-item{
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.carousel-img-one{
+    background-image: url('../img/shirt-baner.jpg');
+}
+.carousel-img-two{
+    background-image: url('../img/sublimacja-banerjpg.jpg');
+}
+
+.carousel-img-three{
+    background-image: url('../img/grawer.jpg');
+    background-position: 0 50%;
+}
+
+.carousel-img-four{
+    background-image: url('../img/ternotransfer-banerjpg.jpg');
+    background-position: 0 75%; 
+}
+/* Oferta */
+.service-hero-box{
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.service-hero-box p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.box-one{
+    background-image: url("../img/grawer-baner.jpg");
+    background-position: bottom;
+}
+.box-two{
+    background-image: url("../img/ternotransfer-banerjpg.jpg");
+    background-position: bottom;
+}
+.box-three{
+    background-image: url("../img/sublimacja-banerjpg.jpg");
+    background-position: bottom;
+}
+.box-four{
+    background-image: url("../img/shirt-baner.jpg");
+    background-position: bottom;
+}
+.box-five{
+    background-image: url("../img/believe-197091_1280.jpg");
+    background-position: bottom;
+}
+
+#oferta .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* O nas */
+
+.service-hero{
+        
+    background-image: url('../img/Onas/onas-baner.jpg');
+    background-position: 0 75%;
+    
+}
+
+#onas img{
+    height: 100%;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    padding: 0;
+    
+    
+    
+}
+
+.text-onas{
+    column-fill: balance;
+}
+
+.close{
+    font-size: 5rem;
+}
+.modal-title{
+    font-size: 2.2rem;
+}
+
+/* Footer */
+main{
+    flex:1;
+
+}
